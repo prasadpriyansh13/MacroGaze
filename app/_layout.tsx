@@ -6,7 +6,6 @@ export default function RootLayout() {
     <FoodProvider>
       <Stack>
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-        <Stack.Screen name="(modals)" options={{ headerShown: false }} />
       </Stack>
     </FoodProvider>
   );
